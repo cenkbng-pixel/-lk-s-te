@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Benim İlk Web Sitem</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to right, #667eea, #764ba2);
+      color: white;
+      text-align: center;
+      padding: 50px;
+    }
+    h1 {
+      font-size: 3em;
+    }
+    p {
+      font-size: 1.2em;
+    }
+    a {
+      color: yellow;
+      text-decoration: none;
+    }
+    .card {
+      background: rgba(255,255,255,0.1);
+      padding: 20px;
+      margin: 20px auto;
+      border-radius: 15px;
+      max-width: 500px;
+    }
+  </style>
+</head>
+<body>
+  <h1>👋 Merhaba!</h1>
+  <div class="card">
+    <p>Bu benim <strong>ilk ücretsiz web sitem</strong> 🚀</p>
+    <p>Netlify sayesinde internete açtım.</p>
+  </div>
+  <p><a href="https://www.netlify.com/" target="_blank">Netlify hakkında daha fazla bilgi</a></p>
+</body>
+</html>
